@@ -1,5 +1,5 @@
 apply plugin: "war"
-apply plugin: "jetty"
+
 
 dependencies {
    compile project(":utils")
@@ -7,5 +7,3 @@ dependencies {
 }
 
 httpPort = 8086
-stopPort = 9090
-stopKey = "stopKey"
